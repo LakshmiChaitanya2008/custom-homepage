@@ -18,8 +18,8 @@ const createTodoStore = function () {
       const id = Math.floor(Math.random() * 100000);
       const newTodo = { id, name: todoName, isDone: false };
       update((items) => [...items, newTodo]);
-
       localStorage.setItem("todos", JSON.stringify([...todos, newTodo]));
+      todos.push(newTodo);
     },
 
     deleteTodo: (index: number) => {
