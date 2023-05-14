@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,12 +8,14 @@
 } */
 
 body {
-  background-color: #0f081a;
-  background-image: url("./assets/bg.png");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: white;
-  font-family: "Fira Mono";
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  @apply overflow-hidden;
+}
+
+input::placeholder {
+  color: black;
 }

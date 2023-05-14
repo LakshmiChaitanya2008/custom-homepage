@@ -21,7 +21,7 @@
     <input
       type="text"
       placeholder="Todo Name"
-      class="py-1 mt-3 px-2 w-full bg-transparent border-white border rounded-md text-lg"
+      class="py-1 mt-3 px-2 w-full bg-transparent border-white focus:outline-none placeholder:text-white border rounded-md text-lg"
       bind:value={input}
     />
   </form>
