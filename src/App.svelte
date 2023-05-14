@@ -13,7 +13,7 @@
     id="myVideo"
     class="absolute -translate-x-2/4 -translate-y-2/4 min-w-[100vw] min-h-screen z-[-1] left-2/4 top-2/4"
   >
-    <source src="https://wooow.xyz/videos/aerial/3.mp4" type="video/mp4" />
+    <source src="/3.mp4" type="video/mp4" />
   </video>
   <Search />
 
